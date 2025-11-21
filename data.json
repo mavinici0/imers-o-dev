@@ -1,0 +1,107 @@
+[
+{
+    "nome": "A Importância dos Carboidratos",
+    "descricao": "Carboidratos são a principal fonte de energia do corpo, essenciais para o cérebro e atividade física. Prefira os complexos (grãos integrais, leguminosas), que são digeridos lentamente, fornecendo energia estável e saciedade. Carboidratos simples (açúcares, farinha branca) causam picos de glicose e energia de curta duração, devendo ser consumidos com moderação.",
+    "imagem": "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Fontes de carboidratos complexos: batata-doce, arroz integral, pão integral, aveia, quinoa, lentilha e grão-de-bico.",
+    "dica_pratica": "Receita de Overnight Oats: Em um pote, misture 4 colheres de sopa de aveia, 1 pote de iogurte natural, 1 colher de chia e frutas picadas a gosto (banana, morango). Deixe na geladeira durante a noite e consuma no café da manhã."
+},
+{
+    "nome": "O Poder das Proteínas",
+    "descricao": "Proteínas são fundamentais para a construção e reparo dos tecidos (músculos, pele, cabelo) e para a produção de hormônios e enzimas. Incluir fontes de proteína em todas as refeições ajuda a manter a massa muscular e a promover a saciedade. Para vegetarianos, é importante combinar diferentes fontes vegetais (como arroz com feijão) para garantir todos os aminoácidos essenciais.",
+    "imagem": "https://images.pexels.com/photos/7627414/pexels-photo-7627414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Fontes de proteína animal: frango, peixe, ovos, carne vermelha magra, leite e derivados. Fontes de proteína vegetal: feijão, lentilha, grão-de-bico, tofu, quinoa e sementes.",
+    "dica_pratica": "Receita de Omelete Nutritivo: Bata 2 ovos com um garfo. Adicione sal, pimenta e seus temperos favoritos. Pique tomate, cebola e espinafre e misture aos ovos. Despeje em uma frigideira antiaderente aquecida e cozinhe até dourar."
+},
+{
+    "nome": "Gorduras Boas: Essenciais para a Saúde",
+    "descricao": "As gorduras insaturadas ('gorduras boas') são vitais para a saúde do coração, cérebro e para a absorção de vitaminas (A, D, E, K). Elas têm ação anti-inflamatória e ajudam a controlar o colesterol. As poli-insaturadas, como o Ômega-3 (encontrado em peixes e linhaça) e o Ômega-6 (em óleos vegetais), são particularmente benéficas e devem ser consumidas em equilíbrio.",
+    "imagem": "https://images.pexels.com/photos/4057753/pexels-photo-4057753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Fontes de gorduras boas: abacate, azeite de oliva extravirgem, castanhas (nozes, amêndoas), sementes (chia, linhaça) e peixes como salmão e sardinha.",
+    "dica_pratica": "Dica de Lanche Saudável: Amasse meio abacate com um garfo, tempere com limão, sal e pimenta. Sirva com torradas integrais. É um lanche rápido, saboroso e cheio de gorduras boas."
+},
+{
+    "nome": "Hidratação: Beba Água!",
+    "descricao": "A água é crucial para todas as funções do corpo: regula a temperatura, transporta nutrientes, elimina toxinas e mantém a pele saudável. A desidratação pode causar cansaço, dor de cabeça e dificuldade de concentração. Não espere sentir sede para beber água, pois a sede já é um sinal de desidratação. A necessidade diária varia, mas uma média de 2 litros é um bom ponto de partida.",
+    "imagem": "https://images.pexels.com/photos/2772543/pexels-photo-2772543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Dicas para beber mais água: tenha sempre uma garrafa por perto, estabeleça metas ao longo do dia e aromatize a água com rodelas de limão, laranja ou folhas de hortelã para dar um sabor extra sem adicionar calorias.",
+    "dica_pratica": "Receita de Água Saborizada: Em uma jarra com 1 litro de água, adicione rodelas de 1 limão siciliano, 1 ramo de alecrim e alguns cubos de gelo. Deixe na geladeira por pelo menos 1 hora antes de servir. É refrescante e delicioso!"
+},
+{
+    "nome": "Frutas e Vegetais: O Arco-Íris no Prato",
+    "descricao": "Comer uma variedade de frutas e vegetais coloridos garante uma ampla gama de vitaminas, minerais e antioxidantes, que combatem os radicais livres e previnem o envelhecimento precoce. Cada cor indica diferentes nutrientes: alimentos vermelhos (licopeno), alaranjados (betacaroteno), roxos (antocianinas) e verdes escuros (cálcio e ferro). O ideal é consumir pelo menos 5 porções por dia.",
+    "imagem": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Monte um prato colorido: inclua folhas verdes (alface, rúcula), tomate (vermelho), cenoura ralada (laranja), beterraba (roxo) e milho (amarelo). Quanto mais colorido, mais nutritivo!",
+    "dica_pratica": "Receita de Salada Colorida: Misture folhas de alface, rúcula, tomates cereja cortados ao meio, cenoura ralada e cubos de manga. Tempere com um molho de azeite, limão, sal e uma pitada de mel. Finalize com sementes de girassol."
+},
+{
+    "nome": "Planejamento de Refeições (Meal Prep)",
+    "descricao": "Planejar e preparar refeições com antecedência (meal prep) é uma estratégia poderosa para manter uma alimentação saudável. Isso economiza tempo, evita decisões impulsivas por comida rápida e garante opções nutritivas sempre à mão. Cozinhar grandes porções de grãos, proteínas e vegetais e montá-los em potes para a semana é uma ótima tática para quem tem uma rotina corrida.",
+    "imagem": "https://images.pexels.com/photos/7195430/pexels-photo-7195430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Exemplo de Meal Prep: No domingo, cozinhe uma panela de arroz integral e uma de quinoa. Asse uma bandeja de peitos de frango e outra com legumes variados (brócolis, cenoura, abobrinha). Guarde tudo em potes separados na geladeira.",
+    "dica_pratica": "Desafio da Semana: Escolha um dia para preparar a base das suas refeições. Cozinhe seu carboidrato favorito (arroz, batata), uma fonte de proteína (frango, feijão) e higienize as folhas para a salada da semana."
+},
+{
+    "nome": "Vitaminas e Minerais: Os Micronutrientes",
+    "descricao": "Vitaminas e minerais são os 'operários' do corpo, essenciais em pequenas quantidades para centenas de funções, como fortalecer o sistema imunológico (Vitamina C), manter os ossos fortes (Cálcio e Vitamina D) e transportar oxigênio (Ferro). A deficiência de micronutrientes pode levar a problemas de saúde sérios. Uma dieta variada e colorida é a melhor forma de garantir todos eles.",
+    "imagem": "https://images.pexels.com/photos/3850790/pexels-photo-3850790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Vitamina C: laranja, limão, acerola, brócolis. Ferro: feijão, lentilha, espinafre, carne vermelha. Cálcio: leite e derivados, gergelim, couve. Potássio: banana, batata-doce, abacate.",
+    "dica_pratica": "Suco Imunidade: Bata no liquidificador o suco de 2 laranjas, 1/2 cenoura, um pedaço pequeno de gengibre e 5 folhas de hortelã. Beba sem coar para aproveitar as fibras. É uma bomba de Vitaminas A e C!"
+},
+{
+    "nome": "Decifrando Rótulos Nutricionais",
+    "descricao": "Aprender a ler rótulos é crucial para escolhas saudáveis. A lista de ingredientes é o ponto principal: eles são listados em ordem de quantidade (do maior para o menor). Se os primeiros itens forem açúcar, farinha branca ou gorduras, desconfie. Fique de olho também na tabela nutricional, observando a quantidade de sódio, açúcares adicionados e gorduras trans (que deve ser sempre zero).",
+    "imagem": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Regra de Ouro: Dê preferência a alimentos com poucos ingredientes na lista (idealmente menos de 5) e com nomes que você reconhece. Se o rótulo parece um texto científico, provavelmente é um ultraprocessado.",
+    "dica_pratica": "Desafio no Supermercado: Na sua próxima compra, pegue dois produtos similares (ex: dois tipos de pão de forma) e compare a lista de ingredientes. Escolha aquele com a lista mais curta e com ingredientes mais naturais, como farinha integral no início da lista."
+},
+{
+    "nome": "Açúcar e Ultraprocessados: Os Vilões Ocultos",
+    "descricao": "Ultraprocessados são formulações industriais ricas em açúcares, gorduras, sal e aditivos, com baixo valor nutricional. O consumo excessivo está ligado a diversas doenças crônicas. O açúcar, muitas vezes 'escondido' com nomes como xarope de milho ou maltodextrina, contribui para inflamação, ganho de peso e aumenta o risco de diabetes tipo 2. Reduzir o consumo é um passo vital para a saúde.",
+    "imagem": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Exemplos de ultraprocessados a evitar: refrigerantes, salgadinhos de pacote, biscoitos recheados, macarrão instantâneo, nuggets e cereais matinais açucarados.",
+    "dica_pratica": "Troca Inteligente: Substitua o refrigerante por água com gás e limão espremido. Em vez de um biscoito recheado, coma um punhado de castanhas com uma fruta. Pequenas trocas fazem uma grande diferença."
+},
+{
+    "nome": "Fibras e Saúde Intestinal: O Segredo do Bem-Estar",
+    "descricao": "As fibras são essenciais para a saúde digestiva. Elas servem de 'alimento' para as bactérias boas do nosso intestino, promovendo uma microbiota saudável, que está ligada à imunidade e até ao humor. Além disso, ajudam na saciedade, regulam o trânsito intestinal e auxiliam no controle do colesterol e do açúcar no sangue. A maioria das pessoas não consome a quantidade diária recomendada.",
+    "imagem": "https://images.pexels.com/photos/4113847/pexels-photo-4113847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Fontes de fibras solúveis (ajudam na saciedade e colesterol): aveia, chia, maçã, cenoura. Fontes de fibras insolúveis (ajudam no trânsito intestinal): farelo de trigo, grãos integrais, casca de frutas.",
+    "dica_pratica": "Adicione 1 colher de sopa de sementes de chia ou linhaça no seu iogurte, vitamina ou salada de frutas todos os dias. É uma forma fácil e eficaz de aumentar drasticamente sua ingestão de fibras e ômega-3."
+},
+{
+    "nome": "A Importância da Atividade Física",
+    "descricao": "A atividade física regular é essencial para a saúde física e mental. Além de ajudar a controlar o peso, fortalece os músculos e ossos, melhora o humor e reduz o risco de diversas doenças crônicas. Encontre uma atividade que você goste e tente praticar pelo menos 30 minutos por dia.",
+    "imagem": "https://images.pexels.com/photos/4164765/pexels-photo-4164765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Caminhada, corrida, natação, dança, yoga, musculação e esportes em equipe são ótimas opções. O importante é se movimentar!",
+    "dica_pratica": "Suba escadas em vez de usar o elevador, caminhe até o trabalho ou mercado, dance enquanto cozinha. Pequenas mudanças na rotina fazem toda a diferença."
+},
+{
+    "nome": "Sódio: Use com Moderação",
+    "descricao": "O sódio é um mineral importante, mas o consumo excessivo está ligado à pressão alta e outros problemas de saúde. A maioria do sódio que consumimos vem de alimentos processados e ultraprocessados. Reduzir o consumo é fundamental para proteger o coração e os rins.",
+    "imagem": "https://images.pexels.com/photos/2338015/pexels-photo-2338015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Evite alimentos industrializados, como macarrão instantâneo, salgadinhos de pacote e temperos prontos. Use ervas e especiarias para temperar a comida em vez de sal.",
+    "dica_pratica": "Comece a reduzir o sal gradualmente para o paladar se adaptar. Experimente usar limão, alho, cebola, pimenta e outras ervas para realçar o sabor dos alimentos."
+},
+{
+    "nome": "Lanches Inteligentes para o Dia a Dia",
+    "descricao": "Fazer lanches saudáveis entre as refeições ajuda a manter a energia e evitar exageros nas refeições principais. A escolha do lanche ideal depende do seu objetivo e do momento do dia.",
+    "imagem": "https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Manhã: frutas com iogurte ou castanhas. Tarde: sanduíche integral com queijo magro e salada ou palitos de legumes com hummus. Noite: chá com biscoitos integrais ou fruta.",
+    "dica_pratica": "Tenha sempre opções saudáveis à mão para evitar escolhas impulsivas. Planejar os lanches da semana é uma ótima estratégia."
+},
+{
+    "nome": "Sono de Qualidade e Alimentação",
+    "descricao": "A qualidade do seu sono e sua alimentação estão diretamente ligadas. Uma noite mal dormida pode aumentar os hormônios da fome, levando a escolhas alimentares piores no dia seguinte. Por outro lado, refeições pesadas, cafeína ou álcool perto da hora de dormir podem atrapalhar o sono. Priorizar o descanso é também uma estratégia nutricional.",
+    "imagem": "https://images.pexels.com/photos/3771691/pexels-photo-3771691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Alimentos que podem ajudar no sono: banana, aveia, nozes e chás calmantes como camomila e maracujá. Alimentos a evitar à noite: café, chocolate, frituras e comidas muito condimentadas.",
+    "dica_pratica": "Tente fazer sua última refeição principal pelo menos 2 a 3 horas antes de deitar. Se sentir fome mais tarde, opte por um lanche leve, como uma banana ou um copo de leite morno."
+},
+{
+    "nome": "Mitos Comuns da Alimentação",
+    "descricao": "O mundo da nutrição é cheio de mitos que podem confundir e atrapalhar seus objetivos. É importante buscar informações baseadas em ciência e desconfiar de soluções milagrosas. Entender o que é fato e o que é ficção é o primeiro passo para uma relação mais saudável com a comida.",
+    "imagem": "https://images.pexels.com/photos/6621472/pexels-photo-6621472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "exemplo": "Mito 1: 'Carboidratos à noite engordam'. Fato: O ganho de peso depende do total de calorias do dia, não do horário. Mito 2: 'Produtos diet/light podem ser consumidos à vontade'. Fato: Muitos têm sódio ou gorduras em excesso. Mito 3: 'Glúten faz mal para todos'. Fato: O glúten só é prejudicial para celíacos ou pessoas com sensibilidade comprovada.",
+    "dica_pratica": "Sempre que ouvir uma regra alimentar muito restritiva ou promessas de resultados rápidos, pesquise em fontes confiáveis ou consulte um profissional de nutrição. O equilíbrio é sempre a melhor abordagem."
+}
+]

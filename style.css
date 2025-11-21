@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap'); /* Fonte moderna e limpa */
+
+/* Animação de gradiente para o texto */
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes pulse-glow {
+    0% { box-shadow: 0 0 8px var(--primary-accent-glow); }
+    50% { box-shadow: 0 0 16px var(--primary-accent-glow); }
+    100% { box-shadow: 0 0 8px var(--primary-accent-glow); }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+* {
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+:root {
+    --bg-color: #E8F5E9; /* Fundo verde-menta, fresco e limpo */
+    --card-bg: #FFFFFF; /* Fundo dos cards em branco puro para maior contraste */
+    --primary-accent: #28a745; /* Verde vibrante para destaque (saúde) */
+    --secondary-accent: #fd7e14; /* Laranja para complementar (energia, vitalidade) */
+    --primary-gradient: linear-gradient(90deg, var(--primary-accent), var(--secondary-accent)); /* Gradiente para títulos */
+    --primary-accent-glow: #28a74560; /* Brilho para o acento primário */
+    --text-light: #343a40; /* Cor principal do texto (cinza escuro) */
+    --text-medium: #6c757d; /* Cor secundária do texto (cinza médio) */
+    --border-color: #dee2e6; /* Cor para bordas sutis */
+}
+
+body {
+    margin: 0; /* Remove a margem padrão do body */
+    background: var(--bg-color); /* Define a cor de fundo usando uma variável */
+    color: var(--text-light); /* Define a cor do texto padrão usando uma variável */
+    font-family: "Inter", sans-serif; /* Define a família da fonte */
+}
+
+header {
+    padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
+    display: flex; /* Habilita o layout flexbox */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center;
+    flex-direction: column; /* Coloca o título acima do campo de busca */
+    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
+    top: 0; /* Posição do topo quando sticky */
+    background: var(--bg-color); /* Cor de fundo do cabeçalho */
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem; /* Tamanho da fonte aumentado */
+    margin: 0 0 1rem 0; /* Remove margem padrão e adiciona margem inferior */
+    font-weight: 700; /* Peso da fonte (médio) */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+
+    /* Aplica o gradiente ao texto */
+    background: var(--primary-gradient);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 5s ease infinite;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#clear-search-btn {
+    position: absolute;
+    right: calc(1.5rem + 110px); /* Ajusta a posição para ficar dentro do input */
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-medium);
+    cursor: pointer;
+    padding: 0 0.5rem;
+    display: none; /* Começa escondido */
+}
+
+#clear-search-btn:hover {
+    color: var(--text-light);
+}
+
+.search-container input {
+    padding: 0.75rem 1rem; /* Espaçamento interno maior */
+    border-radius: 8px; /* Bordas mais arredondadas */
+    border: 1px solid var(--border-color); /* Define a borda */
+    background: var(--card-bg); /* Cor de fundo do input */
+    font-family: "Inter", sans-serif; /* Herda a família da fonte do elemento pai */
+    font-size: 1.1rem; /* Tamanho da fonte */
+    transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
+    color: var(--text-light); /* Cor do texto digitado */
+    width: 25rem; /* Largura da caixa de busca reduzida */
+    padding-right: 2.5rem; /* Adiciona espaço para o botão de limpar */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+.search-container input::placeholder {
+    font-size: 1.1rem; /* Tamanho da fonte do placeholder */
+    font-weight: 400; /* Peso da fonte do placeholder */
+    color: var(--text-medium); /* Cor do texto do placeholder */
+}
+
+.search-container input:focus {
+    outline: none; /* Remove a borda de foco padrão */
+    border-color: var(--primary-accent); /* Muda a cor da borda ao focar */
+    box-shadow: 0 0 15px var(--primary-accent-glow); /* Adiciona uma sombra de caixa para indicar foco */
+}
+
+#botao-busca {
+    padding: 0.75rem 1.5rem; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas mais arredondadas */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
+    font-family: inherit; /* Herda a família da fonte */
+    font-weight: 700; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    transition: all 0.3s ease; /* Transição suave para todas as propriedades */
+    background: var(--primary-gradient); /* Gradiente como fundo */
+    color: #ffffff; /* Cor do texto */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Sombra para o botão */
+    animation: pulse-glow 2.5s infinite ease-in-out; /* Animação de pulso para chamar atenção */
+}
+
+#botao-busca:hover {
+    background: var(--primary-gradient); /* Muda a cor de fundo ao passar o mouse */
+    transform: translateY(-2px); /* Leve levantamento */
+    box-shadow: 0 6px 20px var(--primary-accent-glow); /* Sombra mais pronunciada */
+}
+
+#botao-busca:active {
+    transform: scale(0.98); /* Efeito de clique (diminui o tamanho) */
+    box-shadow: 0 2px 10px var(--primary-accent-glow);
+}
+
+main {
+    max-width: 65rem; /* Largura máxima do conteúdo principal, mais estreito para mais espaço nas bordas */
+    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
+    padding: 2rem 1rem; /* Garante um espaçamento no topo e nas laterais */
+}
+
+article {
+    background: var(--card-bg); /* Fundo do card */
+    border-radius: 10px; /* Bordas mais arredondadas */
+    padding: 1.5rem; /* Espaçamento interno */
+    margin-bottom: 2rem; /* Margem inferior aumentada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Sombra mais suave e moderna */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+    border: 1px solid var(--border-color); /* Borda sutil */
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+.no-results {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-medium);
+    padding: 3rem;
+}
+
+article:hover {
+    transform: translateY(-5px); /* Levanta o card sutilmente */
+    box-shadow: 0 0 25px var(--primary-accent-glow); /* Efeito de brilho no hover */
+}
+
+.card-imagem {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    border-radius: 10px 10px 0 0; /* Arredonda apenas os cantos superiores */
+    margin: -1.5rem -1.5rem 1.5rem -1.5rem; /* Faz a imagem ocupar o topo do card */
+}
+
+article h2.card-titulo {
+    margin-top: 0; /* Remove a margem superior */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 1.7rem; /* Tamanho da fonte aumentado para destaque */
+    border-bottom: none; /* Sem borda inferior */
+    padding-bottom: 0; /* Sem espaçamento interno inferior */
+    margin-bottom: 1rem; /* Margem inferior aumentada para dar espaço após a imagem */
+    text-transform: uppercase; /* Transforma o título em maiúsculas */
+    text-align: center; /* Centraliza o título do card */
+
+    /* Aplica o gradiente animado ao texto do título do card */
+    background: var(--primary-gradient);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradient-animation 5s ease infinite; /* Animação também para o título do card */
+}
+
+article p {
+    margin: 0.5rem 0; /* Margem superior e inferior */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    font-size: 1rem; /* Tamanho da fonte */
+    margin-bottom: 0.5rem; /* Margem inferior */
+    color: var(--text-light); /* Cor do texto */
+    font-weight: 500; /* Deixa o texto do parágrafo mais em negrito */
+    text-align: center; /* Centraliza o texto dos parágrafos */
+}
+
+article .exemplo-texto strong {
+    color: var(--text-medium); /* Cor do texto em negrito */
+    font-weight: 600; /* Aumenta o peso para se destacar */
+}
+ 
+article h3 {
+    color: var(--primary-accent);
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid var(--secondary-accent);
+    padding-bottom: 0.25rem;
+    display: inline-block; /* Permite que a borda se ajuste ao texto */
+    text-align: center; /* Centraliza os subtítulos */
+}
+
+article blockquote {
+    background-color: #f1f3f5;
+    border-left: 5px solid var(--primary-accent);
+    margin: 1rem 0;
+    padding: 1rem;
+    font-style: italic;
+    color: #495057;
+    text-align: left;
+}
+
+article mark {
+    background-color: #fde047; /* Amarelo para destaque */
+    color: #422006; /* Cor de texto com bom contraste */
+    border-radius: 3px;
+}
+
+.footer {
+    color: var(--text-medium); /* Cor do texto */
+    background-color: var(--bg-color); /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    border-top: 1px solid var(--border-color); /* Borda superior */
+    font-size: 0.8rem; /* Tamanho da fonte */
+    text-align: center;
+}
+
+.footer-location {
+    color: #9aa0a6; /* Cor do texto */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+.footer-links {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Habilita o layout flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre os links */
+}
+
+.footer-links a:hover {
+    color: var(--primary-accent); /* Muda a cor do link ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    .search-container input { /* Estilos para o input em telas menores */
+        width: 90vw; /* Largura baseada na largura da viewport */
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    }
+
+    main { /* Estilos para o main em telas menores */
+        padding: 0 1rem; /* Adiciona espaçamento lateral */
+    }
+
+    article:hover { /* Estilos para o article em telas menores */
+        transform: translateY(-2px); /* Mantém um efeito sutil */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem; /* Ajuste fino para telas pequenas */
+        white-space: normal; /* Permite quebra de linha se necessário */
+    }
+
+    .search-container input,
+    .search-container input::placeholder {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+    }
+
+    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
+        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    }
+
+    .footer { /* Estilos para o rodapé em telas muito pequenas */
+        display: none; /* Oculta o rodapé */
+    }
+
+    #botao-busca {
+        margin-top: 1rem; /* Adiciona margem no topo */
+    }
+}
